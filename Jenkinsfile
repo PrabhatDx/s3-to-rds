@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://your-repo-url.git', branch: 'main'
+                git url: 'https://github.com/PrabhatDx/s3-to-rds.git', branch: 'main'
             }
         }
 
