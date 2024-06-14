@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION = 'us-west-2'
-        DOCKER_IMAGE = 'your-docker-image-name'
-        DOCKER_REGISTRY = 'your-docker-registry'
+        AWS_REGION = 'ap-south-1'
+        DOCKER_IMAGE = 'e5236156662d'
+        DOCKER_REGISTRY = ''
     }
 
     stages {
