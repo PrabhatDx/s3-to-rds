@@ -39,7 +39,7 @@
       role             = aws_iam_role.lambda_exec.arn
       handler          = "index.handler"
       source_code_hash = filebase64sha256("lambda_function_payload.zip")
-      runtime          = "nodejs12.x"
+      runtime          = "python 3.1.2"
     }
 
     resource "aws_iam_role" "lambda_exec" {
